@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 640px;
+    margin: 0 auto;
+    padding: 16px;
+}
+
+input {
+    display: inline-block;
+    width:250px;
+    margin-bottom: 8px;
+    padding: 16px;
+    justify-content: space-between;
+}
+
+span {
+    width: 20px;
+}
+
+button {
+    width: 518px;
+    padding: 16px;
+}
+
+h2 {
+    margin-bottom: 24px;
+}
+
+.sucess-message {
+    width: 518px;
+    background-color: rgb(166, 226, 77);
+    padding: 16px;
+    margin-top: 8px;
+    display: none;
+}
+
+.error-msg {
+    width: 518px;
+    padding: 4px;
+    background-color: firebrick;
+    color: aliceblue;
+    margin-bottom: 8px;
+    border-radius: 4px;
+    display: none;
+    padding-left: 8px;
+}
+
+.error {
+    border: 1px solid red;
+    color: red;
+    outline-color: red;
+}
