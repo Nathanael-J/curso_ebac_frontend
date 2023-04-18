@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kanit', sans-serif;
+}
+
+.container {
+    max-width: 420px;
+    margin: 0 auto;
+}
+
+header h1 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 56px;
+}
+
+header form {
+    width: 100%;
+    padding: 40px 0;
+    display: flex;
+    justify-content: center;
+}
+
+input {
+    padding: 8px;
+    width: 75%;
+    border-radius: 0;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+button {
+    width: 25%;
+    border: none;
+    margin-left: 8px;
+    background-color: rgb(17, 148, 17);
+    color: aliceblue;
+    font-weight: bold;
+}
+
+ol li {
+    width: 100%;
+    display: flex;
+    justify-content:left;
+    text-decoration:none;
+}
+
+.pointer {
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.riscado {
+    text-decoration:line-through;
+}
