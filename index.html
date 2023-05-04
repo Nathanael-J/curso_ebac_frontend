@@ -16,22 +16,37 @@
     </div>
     <div class="container">
         <form class="container-form">
-            <label for="NC">Nome Completo:</label>
-            <input required type="text" name="NC" id="NC">
-            <label for="Email">Email:</label>
-            <input required type="email" name="Email" id="Email">
-            <label for="Telefone">Telefone:</label>
-            <input required type="text" name="Telefone" id="Telefone">
-            <label for="CPF">CPF:</label>
-            <input type="text" name="CPF" id="CPF">
-            <label for="Endereço Completo">Endereço Completo:</label>
-            <input required type="text" name="Endereço" id="Endereço">
-            <label for="CEP">CEP:</label>
-            <input required type="text" name="CEP" id="CEP">
+            <div class="campo">
+                <label for="NC">Nome Completo:</label><br>
+                <input required type="text" name="NC" id="NC" placeholder="Digite seu nome">
+            </div>
+            <div class="campo">
+                <label for="Email">Email:</label><br>
+                <input required type="email" name="Email" id="Email" placeholder="Digite seu endereço de email">
+            </div>
+            <div class="campo">
+                <label for="Telefone">Telefone:</label><br>
+                <input required type="text" name="Telefone" id="Telefone">
+            </div>
+            <div class="campo">
+                <label for="CPF">CPF:</label><br>
+                <input type="text" name="CPF" id="CPF">
+            </div>
+            <div class="campo">
+                <label for="Endereço Completo">Endereço Completo:</label><br>
+                <input required type="text" name="Endereço" id="Endereço" placeholder="Digite seu endereço comleto (Rua, Nº, Bairro, Cidade e Estado)">
+            </div>
+            <div class="campo">
+                <label for="CEP">CEP:</label><br>
+                <input required type="text" name="CEP" id="CEP">
+            </div>
             <button type="submit">Cadastrar</button>
         </form>
     </div>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
     <script src="./JS/jquery.mask.min.js"></script>
+    <script src="./JS/jquery.validate.min.js"></script>
+    <script src="./JS/messages_pt_BR.min.js"></script>
     <script src="./JS/main.js"></script>
 </body>
 </html>

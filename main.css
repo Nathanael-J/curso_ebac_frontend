@@ -23,12 +23,15 @@
     margin-right: 25%;
 }
 
-input {
+.campo {
     display: block;
+    justify-content: left;  
+    margin-bottom: 16px;  
+}
+
+input {
     padding: 8px;
     width: 100%;
-    justify-content: left;
-    margin-bottom: 16px;
     border-radius: 5px;
 }
 
